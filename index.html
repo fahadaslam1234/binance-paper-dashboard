@@ -113,13 +113,13 @@
 
     <div class="footer">
       Data is read-only from the local paper bot state/log. Ticker = live price in the log line; Closed close / EMA / RSI = last CLOSED 15m candle used for signals.
-      Dashboard refreshes every 10 seconds from a live-published data.json snapshot of the paper bot (never invents fills). Hosted on GitHub Pages; data is pushed from the bot box over HTTPS.
+      Dashboard refreshes every 10 seconds from a live-published data.json snapshot of the paper bot (never invents fills). Hosted on GitHub Pages; live JSON snapshots publish to a public GitHub Gist every ~15s over HTTPS.
     </div>
   </div>
 <script>
 async function refresh(){
   try{
-    const r = await fetch('https://raw.githubusercontent.com/fahadaslam1234/binance-paper-dashboard/main/data.json?t=' + Date.now(), {cache:'no-store'});
+    const r = await fetch('https://gist.githubusercontent.com/fahadaslam1234/ef21abfa22d77b6c4e9dcf19faac1289/raw/live_data.json?t=' + Date.now(), {cache:'no-store'}), {cache:'no-store'});
     if(!r.ok) throw new Error('HTTP '+r.status);
     const d = await r.json();
     render(d);

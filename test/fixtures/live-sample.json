@@ -1,0 +1,195 @@
+{
+  "disclaimer": "PAPER / SIMULATED trading only. Not affiliated with Binance. No real orders.",
+  "mode": "PAPER",
+  "generated_at_riyadh": "2026-11-07 04:12:03 Asia/Riyadh",
+  "poll_hint_seconds": 10,
+  "bot": {
+    "process": {
+      "running": true,
+      "healthy": true,
+      "count": 1,
+      "processes": [
+        {
+          "pid": 194059,
+          "cmdline": "../.venv/bin/python ../bot.py --base-url https://data-api.binance.vision --interval-seconds 30"
+        }
+      ],
+      "expected_base": "data-api.binance.vision"
+    },
+    "base_url_hint": "data-api.binance.vision",
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT",
+      "SOLUSDT",
+      "XRPUSDT",
+      "ADAUSDT",
+      "ZECUSDT",
+      "HYPEUSDT",
+      "PEPEUSDT",
+      "TONUSDT"
+    ]
+  },
+  "account": {
+    "balance_usdt": 800.0,
+    "daily_pnl_usdt": 0.0,
+    "daily_date_utc": "2026-11-07",
+    "kill_switch": false,
+    "open_positions": [
+      {
+        "symbol": "PEPEUSDT",
+        "entry": 4.99e-06,
+        "qty": 20020040.080160324,
+        "tp": 5.0898e-06,
+        "sl": 4.9400999999999995e-06
+      },
+      {
+        "symbol": "ZECUSDT",
+        "entry": 1323.73,
+        "qty": 0.0754685623201106,
+        "tp": 1350.2046,
+        "sl": 1310.4927
+      }
+    ],
+    "open_position_count": 2
+  },
+  "trades": {
+    "closed_count": 0,
+    "closed": [],
+    "note": "trades.csv absent means zero closed trades so far"
+  },
+  "freshness": {
+    "last_log_riyadh": "2026-11-07 04:12:01 Asia/Riyadh",
+    "age_seconds": 2.3,
+    "stale": false,
+    "stale_threshold_seconds": 90,
+    "state_mtime_riyadh": "2026-11-07 04:12:01 Asia/Riyadh"
+  },
+  "pairs": [
+    {
+      "symbol": "BTCUSDT",
+      "ticker_price": 75927.27,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 75909.95,
+      "ema200": 76793.31,
+      "rsi": 50.49,
+      "rsi_prev": 51.38,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:49 Asia/Riyadh",
+      "checked_at_epoch": 1794013909.0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "ticker_price": 2242.37,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 2240.03,
+      "ema200": 2270.49,
+      "rsi": 54.35,
+      "rsi_prev": 55.86,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:51 Asia/Riyadh",
+      "checked_at_epoch": 1794013911.0
+    },
+    {
+      "symbol": "BNBUSDT",
+      "ticker_price": 694.62,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 694.22,
+      "ema200": 697.87,
+      "rsi": 49.39,
+      "rsi_prev": 49.05,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:54 Asia/Riyadh",
+      "checked_at_epoch": 1794013914.0
+    },
+    {
+      "symbol": "SOLUSDT",
+      "ticker_price": 90.29,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 90.25,
+      "ema200": 91.32,
+      "rsi": 51.61,
+      "rsi_prev": 51.06,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:56 Asia/Riyadh",
+      "checked_at_epoch": 1794013916.0
+    },
+    {
+      "symbol": "XRPUSDT",
+      "ticker_price": 1.18,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 1.18,
+      "ema200": 1.22,
+      "rsi": 46.56,
+      "rsi_prev": 47.6,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:58 Asia/Riyadh",
+      "checked_at_epoch": 1794013918.0
+    },
+    {
+      "symbol": "ADAUSDT",
+      "ticker_price": 0.18,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 0.18,
+      "ema200": 0.19,
+      "rsi": 39.41,
+      "rsi_prev": 36.84,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:12:01 Asia/Riyadh",
+      "checked_at_epoch": 1794013921.0
+    },
+    {
+      "symbol": "ZECUSDT",
+      "ticker_price": 1342.25,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 1335.83,
+      "ema200": 1300.4,
+      "rsi": 53.6,
+      "rsi_prev": 47.41,
+      "decision": "HOLD (position open)",
+      "checked_at_riyadh": "2026-11-07 04:11:09 Asia/Riyadh",
+      "checked_at_epoch": 1794013869.0
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "ticker_price": 78.91,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 79.04,
+      "ema200": 79.72,
+      "rsi": 63.55,
+      "rsi_prev": 60.62,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:12 Asia/Riyadh",
+      "checked_at_epoch": 1794013872.0
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "ticker_price": 0.0,
+      "closed_candle_utc": "2026-11-07 00:45 UTC",
+      "closed_close": 0.0,
+      "ema200": 0.0,
+      "rsi": 47.55,
+      "rsi_prev": 42.13,
+      "decision": "HOLD (position open)",
+      "checked_at_riyadh": "2026-11-07 04:11:14 Asia/Riyadh",
+      "checked_at_epoch": 1794013874.0
+    },
+    {
+      "symbol": "TONUSDT",
+      "ticker_price": 1.6,
+      "closed_candle_utc": "2026-06-30 02:45 UTC",
+      "closed_close": 1.6,
+      "ema200": 1.59,
+      "rsi": 46.53,
+      "rsi_prev": 51.11,
+      "decision": "WAIT (candle already processed)",
+      "checked_at_riyadh": "2026-11-07 04:11:16 Asia/Riyadh",
+      "checked_at_epoch": 1794013876.0
+    }
+  ],
+  "legend": {
+    "ticker_price": "Latest live ticker from log line (not a closed candle)",
+    "closed_close": "Close of the latest CLOSED 15m candle used for signals",
+    "decision": "Actual bot log decision for that check"
+  }
+}
